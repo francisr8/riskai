@@ -36,4 +36,4 @@ def preprocess(troop1, troop2):
 
 if __name__ == "__main__":
     trainModel()
-    app.run(debug=True)
+    app.run()
