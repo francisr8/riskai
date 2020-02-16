@@ -29,7 +29,7 @@ class ModelBuilder:
 
     def train_model(self):
         self.model.fit(np.array(self.xlist), np.array(self.ylist), batch_size=len(self.xlist), verbose=0)
-        self.model.save("..\model\model.h5")
+        self.model.save("..\\model\\model2.h5")
 
     def predict(self, troops1, troops2):
         troops = np.array([troops1, troops2])
