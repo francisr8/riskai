@@ -12,7 +12,7 @@ def index():
 
 @app.route('/calculateProbability/<troop1>/<troop2>')
 def calculate(troop1, troop2):
-    model = load_model("..\model\model.h5")
+    model = load_model("model/model.h5")
     model.compile(loss='binary_crossentropy', optimizer=SGD(lr=0.01, momentum=0.9))
     troops = preprocess(troop1, troop2)
     return str(model.predict(troops))
