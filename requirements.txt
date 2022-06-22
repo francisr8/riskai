@@ -4,7 +4,7 @@ Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 Flask==1.0.2
 Flask-Compress==1.4.0
-numpy==1.16.5
+numpy==1.22.0
 requests==2.22.0
 tensorboard==1.14.0
 tensorflow-estimator==1.14.0
